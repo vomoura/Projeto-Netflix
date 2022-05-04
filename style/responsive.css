@@ -13,6 +13,10 @@
         display:flex;
         padding-left: 30px;
     }
+
+    .fa-solid.fa-caret-down {
+        padding-left: 10px;
+    }
     
     .menu-trigger {
         font-family: 'Arial';
@@ -51,6 +55,7 @@
     }
 
     .dropdown:hover .dropdown-content {
+        margin-top: 10px;
         display: block;
     }
 }
